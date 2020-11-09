@@ -110,7 +110,6 @@ module.exports = {
   }
 
 //pluszcucc
-
 const Extra = (szam1, szam2) => {
     let answer = [];
     let toltendo = [];
