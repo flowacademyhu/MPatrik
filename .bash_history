@@ -1,33 +1,3 @@
-cd 4_cucc/
-node cargyakorlos.js 
-cd ..
-cd codawars/
-cd 1esmappa/
-node atnev.js
-cd ..
-cd 4_cucc/
-node cargyakorlos.js 
-cd ..
-cd codawars/
-cd 1esmappa/
-atnev.js
-node atnev.js
-cd 1esmappa/
-node atnev.js
-cd ..
-cd 4_cucc/
-node cargyakorlos.js 
-cd codawars/
-cd 1esmappa/
-node cucc.js
-node tictactoe.js
-node cucc.js
-node tictactoe.js
-git --version
-sude apt install git
-sudo apt install git
-git log
--ls -la ~/.ssh
 ls -la ~/.ssh
 cat id_rsa-pub
 cat id_rsa.pub
@@ -1996,5 +1966,35 @@ ls
 cd szakaszzaro/
 cd MPatrik/
 ls
+ls -la
+cat .bash_history
+cp ~/.bash_history ~/szakaszzaro/MPatrik/.bash_history
+cd szakaszzaro/
+cd MPatrik/
+ls -la
+cat .bash_hostiry
+cat .bash_history
+git status
+git add .bash_history
+git commit
+git push
+vissza az egész, feladat.txt-be grepeltem feladat helyett
+ls
+cd ..
+ls
+rm feladat.txt
+grep NetworkManager /var/log/syslog >> feladat
+cat feladat
+cd MPatrik
+cp ~/.bash_history ~/szakaszzaro/MPatrik/.bash_history
+ls -la
+git status
+cat .bash_history
+rm .bash_history
+ls -la
+git status
+git add .bash_history
+git commit
+cp ~/.bash_history ~/szakaszzaro/MPatrik/.bash_history
 ls -la
 cat .bash_history
