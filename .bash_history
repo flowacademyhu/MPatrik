@@ -1,46 +1,3 @@
-cd
-cd ..
-pwd
-ls
-cd patrik
-ls
-cd progalapgyak/
-cd 4_cucc/
-node cargyakorlos.js
-cd 4_cucc/
-node cargyakorlos.js
-cd 4_cucc/
-node cargyakorlos.js
-cd ..
-cd 5_basic/
-node basic.js
-cd ..
-cd 4_cucc/
-node cargyakorlos.js
-cd ..
-cd 5_basic/
-node basic.js
-cd ..
-cd 4_cucc/
-cd ..
-cd 5_basic/
-node basic.js
-cd ..
-cd 4_cucc/
-node cargyakorlos.js
-cd ..
-cd 5_basic/
-node basic.js
-cd ..
-cd progalapgyak/
-cd codawars/
-cd 1esmappa/
-cd codawars/
-cd 1esmappa/
-node atnev.js
-cd ..
-cd..
-cd .. 
 cd 4_cucc/
 node cargyakorlos.js 
 cd ..
@@ -1998,3 +1955,46 @@ ps
 ps -a
 ps -a | grep TTY
 ps -a | grep GREP
+ls
+mkdir szakaszzaro
+ls
+cd szakaszzaro
+touch szakaszzaro_feladat.txt
+nano szakaszzaro_feladat.txt 
+echo 'Hello' > szakaszzaro_feladat.txt 
+cat szakaszzaro_feladat.txt 
+mv szakaszzaro_feladat.txt feladat
+ls
+cat feladat
+cp feladat feladat2
+ls
+cat feladat2
+rm feladat2
+ls
+cat feladat
+grep NetworkManager /var/log/syslog
+grep NetworkManager /var/log/syslog >> feladat.txt
+cat feladat.txt
+grep Hello feladat.txt
+'>>' operátor volt, de nem appendelte hanem felülírta :(
+ls
+git clone git@github.com:flowacademyhu/MPatrik.git
+cp ~/.bash_history ~/szakaszzaro/.bash_history
+ls
+ls -la
+git status
+ls
+cp ~/.bash_history ~/szakaszzaro/MPatrik/.bash_history
+cd MPatrik
+ls
+cp ~/.bash_history ~/szakaszzaro/MPatrik/.bash_history
+git status
+git add .bash_history
+git commit
+git push
+ls
+cd szakaszzaro/
+cd MPatrik/
+ls
+ls -la
+cat .bash_history
